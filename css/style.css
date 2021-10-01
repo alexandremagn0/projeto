@@ -1,0 +1,137 @@
+
+*{
+  font-family: 'Roboto';;
+}
+
+/*Navbar*/
+#navbar img{
+  width: 70px;
+}
+
+#navbar{
+  background-color: rgb(56, 56, 56);
+}
+
+#navbar a{
+  font-size: 14px;
+  color: #757575;
+  padding: 20px;
+
+}
+
+#navbar a:hover{
+  color: #c28008;
+}
+
+/* Capa */
+#capa img{
+  width: 250px;
+}
+#capa {
+  background-color: rgb(252, 227, 209);
+}
+#inverso{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); 
+}
+
+/* Redes Sociais*/
+#bloco {
+  padding:5px;
+  background-color: rgb(133, 97, 52);
+  display: flex;
+  justify-content: center;
+}
+#bloco a{
+  display: inline-block;
+  padding-left: 12px;
+  font-size: 22px;
+  color: black;
+}
+
+#social{
+ text-align: center;
+}
+
+
+#somos{
+  float: right;
+  background-color: rgb(33, 120, 201);
+
+  
+}
+#recomendacao{
+  margin-top: 5px;
+  padding: 5px;
+  background-color: white;
+}
+#reco{
+  width: 85%;
+}
+#pag-inicial{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-top: 10px;
+  background-color: white;
+  padding: 5px;
+  
+}
+#titulo-inicial{
+  text-align: center;
+}
+#traco{
+  background-color: transparent;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+#promo{
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+}
+#imagem-promo a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-style: ridge;
+  
+}
+#imagem-promo a h3{
+  color: black;
+  transition: background .5s;
+  
+}
+#imagem-promo a #price1{
+  border: rgb(192, 192, 192);
+  border-style: outset;
+  padding: 15px;
+}
+#ft1{
+  width: 200px;
+  padding: 30px;
+}
+#ft2{
+  width: 200px;
+  padding: 30px;
+}
+#ft3{
+  width: 200px;
+  padding: 30px;
+}
+#ft4{
+  width: 200px;
+  padding: 30px;
+}
+#imagem-promo a #price1:hover{
+  background-color: rgb(16, 143, 65);
+  padding-bottom: 15px;
+  border: rgb(196, 195, 195);
+  border-style: inset;
+}
+p{
+  padding-top: 100px;
+}
